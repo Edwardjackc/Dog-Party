@@ -11,6 +11,7 @@
 .body{
 	margin:-1px;
 	border:solid
+	height:100%;
 }
 
 .dog-icon{
@@ -67,6 +68,12 @@ li a{
 	font-weight:thin;
 }
 
+.one{
+	color:#ffffff;
+	font:23px sans-serif;
+	margin:0px
+	padding:38px 0px 0px;
+}
 .topcontainer{
 	text-align:center;
 	background: url("images/dog-party-assets/park.jpg");
@@ -148,13 +155,25 @@ li a{
   	font-color:#ffffff;
 }
 
-.bottom{
-  left: 0;
-  bottom: 0;
-  height:150px;
-  width: 100%;
-  background-color:#048eaa;
-  text-align: center;
+footer{
+ 	/*left: 0;
+  	bottom: 0;
+ 	height:150px;
+ 	width: 100%;
+ 	background-color:#048eaa;
+ 	*/
+  	text-align: center;
+  	position: relative;
+  	width: 100%;
+  	background-color: #048eaa;
+  	color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 48px;
+    margin-top: 30px;
 }
 
 .learn{
@@ -162,6 +181,7 @@ li a{
 	margin-top: 80px;
 	padding-top:10px;
 	color:#ffffff;
+	font-family:sans-serif;
 }
 
 footer img{
